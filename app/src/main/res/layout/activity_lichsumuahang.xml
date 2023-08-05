@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ACTIVITY.LichsumuahangActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_lichsumuahang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0E7B2D"
+        app:title=" Lịch sử mua hàng"
+        app:titleTextColor="@color/white"/>
+    <ListView
+        android:id="@+id/lv_lichsumuahang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

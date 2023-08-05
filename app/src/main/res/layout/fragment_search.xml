@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FRAGMENT.SearchFragment"
+    android:background="#B9EFEFEF">
+
+    <EditText
+        android:id="@+id/ed_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search for food"
+        android:inputType="text"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:imeOptions="actionSearch"
+        android:layout_margin="10dp"
+        android:background="@drawable/customize_boder_edittext" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycelview_search"/>
+
+</LinearLayout>

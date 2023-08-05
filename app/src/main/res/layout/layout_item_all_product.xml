@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="260dp"
+    android:background="@drawable/boder_layout_item_recycel"
+    android:id="@+id/item_product_all">
+
+    <ImageView
+        android:id="@+id/img_product_all"
+        android:layout_marginTop="1sp"
+        android:layout_width="198dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/name_product_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tên sản phẩm"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/price_product_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="giá"
+        android:gravity="center"/>
+
+</LinearLayout>
